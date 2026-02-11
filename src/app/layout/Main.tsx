@@ -4,6 +4,7 @@ import { EvasiveButtons } from "./../components/EvasiveButton";
 import { Title } from "./../components/Title";
 import HeartBackground from "./../components/background-yes";
 import { RoseFront } from "./../components/RoseFront";
+import { InstagramToast } from "./../components/InstagramToast";
 
 import { romanceCopy } from "./../utils/romanceCopy";
 
@@ -102,6 +103,12 @@ export function Main() {
                     </div>
                 </section>
             </div>
+
+            <InstagramToast
+                show={accepted}
+                href="https://www.instagram.com/salva_cot_/"
+                handle="@salva_cot_"
+            />
         </main>
     );
 }
