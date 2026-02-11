@@ -154,7 +154,7 @@ body {
 
 /* Selection highlight */
 ::selection {
-    background-color: rgb(150, 34, 226);
+    background-color: #9622e2;
     /* color de fondo */
     color: #FFF;
     /* color del texto */
