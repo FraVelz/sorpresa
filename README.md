@@ -1,6 +1,6 @@
-## WEB San Valentín (Next.js + TypeScript)
+## Sorpresa web (Next.js + TypeScript)
 
-Landing page romántica, minimalista y moderna para una declaración de amor.
+Una mini experiencia interactiva, corta y directa. Entra sin expectativas.
 
 ### Qué incluye
 
@@ -10,8 +10,9 @@ Landing page romántica, minimalista y moderna para una declaración de amor.
 - **UI centrada** (vertical y horizontal), con **fondo oscuro + grid animada**
 - **Tarjeta principal** con CTA **"Sí"** y **"No"**
 - **Interacciones en cliente**:
-  - Al hacer click en **"Sí"** se muestra un mensaje de confirmación
-  - El botón **"No"** **crece** en cada intento hasta “cubrir” la pantalla (y deja de ser clickeable)
+  - El botón **"No"** tiene **cuenta regresiva** (10 → 1)
+  - Al final ocurre una secuencia: **"Sí"** invade el espacio, **"No"** es empujado y **explota**
+  - Si presionas **"No"** muy rápido, puede **terminar contando como "Sí"**
   - **Rastro del cursor** (en móvil se mueve solo), en `src/app/components/CursorTrail.tsx`
 - **Estilos** con Tailwind v4 (vía `@import "tailwindcss";`) + CSS propio en `src/app/styles/`
 
@@ -53,6 +54,17 @@ npm run lint
 - **Textos** (título, labels, mensaje final): `src/app/utils/romanceCopy.ts`
 - **Comportamiento del “No”** (velocidad/escala, límite): `src/app/components/EvasiveButton.tsx`
 - **Animaciones/fondo**: `src/app/page.tsx` y `src/app/styles/*`
+
+### Assets (icono y preview)
+
+Coloca estos archivos en:
+
+- `public/assets/icono.png` (icono / favicon)
+- `public/assets/image.png` (imagen para Open Graph / Twitter)
+
+Preview (para compartir):
+
+![Preview](public/assets/image.png)
 
 ### Deploy
 
