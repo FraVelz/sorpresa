@@ -19,10 +19,10 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/assets/icono.png", type: "image/png" },
+      { url: "/sorpresa/assets/icono.png", type: "image/png" },
     ],
     apple: [
-      { url: "/assets/icono.png", type: "image/png" },
+      { url: "/sorpresa/assets/icono.png", type: "image/png" },
     ],
   },
   openGraph: {
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     description: siteDescription,
     images: [
       {
-        url: "/assets/image.png",
+        url: "https://github.com/himself10/sorpresa/blob/main/assets/image.png?raw=true",
         width: 1200,
         height: 630,
         alt: "Una pista visual, sin spoilers.",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: siteTitle,
     description: siteDescription,
-    images: ["/assets/image.png"],
+    images: ["https://github.com/himself10/sorpresa/blob/main/assets/image.png?raw=true"],
   },
   robots: {
     index: false,
