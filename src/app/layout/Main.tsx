@@ -84,7 +84,7 @@ export function Main() {
                                             {romanceCopy.success}
                                         </p>
                                         <p className="mt-0.5 text-xs text-white/70">
-                                            - user
+                                            - himself10
                                         </p>
                                     </div>
                                 </div>
